@@ -1,0 +1,14 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "action-first",
+  "description": "Action-first, ADHD-friendly output style for Claude Code.",
+  "owner": { "name": "Abe Al-Saleh" },
+  "plugins": [
+    {
+      "name": "action-first",
+      "description": "Action-first, ADHD-friendly output style for Claude Code.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

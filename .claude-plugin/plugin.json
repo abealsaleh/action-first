@@ -1,0 +1,6 @@
+{
+  "name": "action-first",
+  "version": "1.0.0",
+  "description": "Output style that shapes Claude Code responses for an ADHD reader: lead with the next action, number steps, suppress tangents, restate state, make wins visible.",
+  "author": { "name": "Abe Al-Saleh" }
+}
