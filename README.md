@@ -10,7 +10,7 @@ the whole session — no per-invocation command needed.
 ## Install
 
 ```bash
-claude plugin marketplace add ~/repos/action-first
+claude plugin marketplace add abealsaleh/action-first
 claude plugin install action-first@action-first
 ```
 
@@ -26,8 +26,10 @@ session or after `/clear`. The choice persists across sessions (stored in the
 
 ## Update
 
-Edit `output-styles/action-first.md`, then run
-`claude plugin marketplace update action-first` and start a new session.
+Edit `output-styles/action-first.md`, bump `version` in
+`.claude-plugin/plugin.json`, commit and push, then run
+`claude plugin marketplace update action-first` followed by
+`claude plugin update action-first@action-first` and start a new session.
 
 ## License
 
