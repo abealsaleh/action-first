@@ -1,13 +1,11 @@
 # action-first
 
-A Claude Code **output style** plugin that shapes responses for an ADHD reader:
+A Claude Code **output style** plugin that makes responses action-first:
 lead with the next action, number multi-step work, suppress tangents, restate
 state every turn, give concrete time estimates, make wins visible.
 
-This is a conversion of the [i-have-adhd](https://github.com/ayghri/i-have-adhd)
-skill by Ayoub Ghriss into a native Claude Code output style. Instead of a
-per-invocation skill plus a SessionStart-hook "always-on" hack, the ruleset is
-an output style baked into the system prompt for the whole session.
+The ruleset ships as a native output style, baked into the system prompt for
+the whole session — no per-invocation command needed.
 
 ## Install
 
@@ -33,4 +31,4 @@ Edit `output-styles/action-first.md`, then run
 
 ## License
 
-MIT. Derived from [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) (MIT).
+MIT. Adapted from [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) (MIT).
