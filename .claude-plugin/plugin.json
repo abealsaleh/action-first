@@ -1,6 +1,6 @@
 {
   "name": "action-first",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Output style that makes Claude Code responses action-first: lead with the next action, number steps, suppress tangents, restate state, make wins visible.",
   "author": { "name": "Abe Al-Saleh" }
 }
